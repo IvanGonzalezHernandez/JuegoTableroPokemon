@@ -1,5 +1,7 @@
 # Juego Tablero Pokemon
 ![image](https://github.com/user-attachments/assets/ad474545-3ad3-4f80-a982-5bbf213abf14)
+![image](https://github.com/user-attachments/assets/bd1c2554-885f-4839-9c65-f9835703d396)
+
 
 Este proyecto es un juego de tablero interactivo desarrollado con HTML, CSS y JavaScript. El objetivo del juego es encontrar el tesoro moviendo al héroe por un tablero de 10x10, utilizando tiradas de dados para determinar los movimientos permitidos. El jugador debe mover al héroe por el tablero hasta llegar al tesoro, con la posibilidad de almacenar récords y disfrutar de efectos de sonido.
 
