@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero Pokemon</title>
+    <link rel="shortcut icon" href="./img/Tesoro.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <div id="contenedorSeparacion">
+        <div id="separacionArriba" class="separacion">
+          <img src="./img/separacionArriba.png">
+        </div>
+        <div id="separacionAbajo" class="separacion">
+          <img src="./img/separacionAbajo.png">
+        </div>
+    </div>
+    
+
+    <section id="seccionRegistro">
+        <img src="./img/pokemonjs.png">
+        <input type="text" id="nombreUsuario">
+        <button id="botonValidarNombre" class="boton">Introduce Nombre</button>
+        <p id="pBotonValidarNombre"></p>
+        <button id="botonGenerarTablero" class="boton">Jugar</button>
+    </section>
+
+
+    <section id="seccionTablero">
+
+
+         <table id="tablero"></table>
+
+         <div class="pikachu">
+            
+            <!-- Aquí pinto los dados y el botón de tirar dados-->
+             <img id="dadoImg" src="./img/dado0.png">
+             <button id="botonTirarDados" class="boton">Tirar dados</button>
+         </div>
+
+    </section>
+
+
+    
+
+
+
+
+    
+</body>
+</html>
